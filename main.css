@@ -22,3 +22,30 @@ img{
 }
 .margin{margin: 30px;}
 .p-icon{padding: 2.8rem!important;}
+.flex{
+display: flex;
+flex-direction: row;
+align-items: stretch;
+text-align: center;
+}
+@media(max-width: 400px){
+    .mobile-flex{flex-direction: column;}
+    .display-4 {font-size: 2.5rem;}
+}
+@media(max-width: 991px){
+   .port-item{padding: 1.6rem !important;} 
+}
+@media (min-width: 1199px){
+.port-item {
+    padding: 3.3em !important;
+}}
+
+#main-header .port-item{
+    width: 100%;
+    text-align: center;
+
+}
+.contact-icon-margin{
+    margin:1rem;
+    width: 3.8mm;
+}
